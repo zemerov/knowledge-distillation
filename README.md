@@ -1,16 +1,24 @@
 # Survey on Knowledge Distillation for sequence binary classification 
 
+This small research project inspired by this [paper](https://arxiv.org/abs/1503.02531) and [VK Lab Team](https://vk.com/lab)
+
+All model parameters and metrics obtained during the study can be found [here](https://drive.google.com/drive/folders/1lABr-KwIdQNWDXRahxCp6ExoLJf7L5bP?usp=sharing)
+
 ## Run experiments
 The main.ipynb contains all experiments. It was launched on google Colab.
 The notebook is ready to run, just set the constant 
+
 ```LAUNCH_LOCAL = True ```
+
 if you want to run notebook on local computer or just leave in False if you run on google Colab.
 
 ## Motivation 
 In the original [paper](https://arxiv.org/abs/1503.02531) the knowledge distillation was applied for multiclass classification (MNIST - 10 classes, speech recognition 14000 classes, JFT dataset 15000 classes). 
 
 The main question of this survey: Does the knowledge distillation approach from paper work on just 2. 
+
 Hypothesis: Soft targets not really useful for binary classification.
+
 Let`s prove or disprove it.
 
 ## Dataset 
